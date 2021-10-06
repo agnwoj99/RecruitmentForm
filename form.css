@@ -1,0 +1,153 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0;
+  min-height: 140vh;
+  font-family: 'Manrope', sans-serif;
+  font-size: 15px;
+  background-color: #b1bfd8;
+  background-image: linear-gradient(315deg, #b1bfd8 0%, #6782b4 74%);
+}
+
+.border {
+  color: blue;
+}
+
+.container {
+  height: 670px;
+  width: 400px;
+  max-width: 100%;
+  -webkit-box-shadow: 3px 2px 10px 4px;
+          box-shadow: 3px 2px 10px 4px;
+  border-radius: 5%;
+  padding: 1em;
+  background-color: lightgray;
+}
+
+.form {
+  padding: 30px 40px;
+}
+
+.submit-btn {
+  display: block;
+  height: 24px;
+  width: 90px;
+  margin: auto;
+  padding: 5px;
+  background-color: #324f81;
+  font-size: 10px;
+  color: #dbdbdb;
+  border-radius: 50px;
+  -webkit-box-shadow: 1px 2px 5px black;
+          box-shadow: 1px 2px 5px black;
+}
+
+.form-group {
+  position: relative;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+}
+
+.form-group input {
+  display: block;
+  max-width: 300px;
+  margin: auto;
+  padding: 10px;
+  font-size: 12px;
+  text-indent: 15px;
+  border: 1px solid gray;
+  border-radius: 40px;
+  -webkit-box-shadow: 2px 3px 5px #9f9f9f inset;
+          box-shadow: 2px 3px 5px #9f9f9f inset;
+}
+
+.form-group input ::-webkit-input-placeholder {
+  color: lightgray;
+}
+
+.form-group input :-ms-input-placeholder {
+  color: lightgray;
+}
+
+.form-group input ::-ms-input-placeholder {
+  color: lightgray;
+}
+
+.form-group input ::placeholder {
+  color: lightgray;
+}
+
+.form-group i {
+  position: absolute;
+  top: 15px;
+  right: 50px;
+}
+
+h3 {
+  margin-top: 100px;
+  font-size: 20px;
+  color: #324f81;
+}
+
+.checkbox-form {
+  font-size: 13px;
+}
+
+@media (min-width: 576px) {
+  .container {
+    height: 630px;
+    width: 400px;
+  }
+  .form-group input {
+    max-width: 320px;
+    font-size: 13px;
+  }
+  .submit-btn {
+    height: 30px;
+    width: 120px;
+    font-size: 11.5px;
+  }
+  h3 {
+    font-size: 23px;
+  }
+  .checkbox-form {
+    font-size: 13.5px;
+  }
+}
+
+@media (min-width: 900px) {
+  .container {
+    height: 660px;
+    width: 500px;
+  }
+  .form-group input {
+    max-width: 100%;
+    font-size: 14px;
+  }
+  .submit-btn {
+    height: 38px;
+    width: 140px;
+    font-size: 13px;
+  }
+  h3 {
+    font-size: 25px;
+  }
+  .checkbox-form {
+    font-size: 15px;
+  }
+}
+/*# sourceMappingURL=form.css.map */
